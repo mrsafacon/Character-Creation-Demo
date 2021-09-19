@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcc1269655205584da9a43487ab37177, type: 3}
-  m_Name: Brown
+  m_Name: Face2
   m_EditorClassIdentifier: 
   PreviewImage: {fileID: 21300000, guid: 2d2a4f8c300cd8b46ae4f4dd463e1114, type: 3}
   Color: {r: 0.3962264, g: 0.24265867, b: 0.18503025, a: 1}
