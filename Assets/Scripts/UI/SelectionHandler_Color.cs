@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+/// <summary>
+/// SelectionHandler for Color buttons
+/// </summary>
 public class SelectionHandler_Color : SelectionHandler
 {
     protected RuntimeDatabase.ColorType Type;

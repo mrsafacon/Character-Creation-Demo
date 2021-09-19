@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// Base class for any Customization/Color options.
+/// </summary>
 public class DatabaseObject : ScriptableObject
 {
     public Sprite PreviewImage;

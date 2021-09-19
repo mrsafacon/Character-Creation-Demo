@@ -8,9 +8,7 @@ public class RuntimeDatabase : MonoBehaviour
     public enum ColorType { Face, Details, Hair }
 
     protected static DatabaseObjectPrefab[] HairDatabase;
-    protected static DatabaseObjectTexture[] EyeDatabase;
-    protected static DatabaseObjectTexture[] NoseDatabase;
-    protected static DatabaseObjectTexture[] MouthDatabase;
+    protected static DatabaseObjectTexture[] EyeDatabase, NoseDatabase, MouthDatabase;
 
     protected static DatabaseObjectColor[] ColorDatabase;
 

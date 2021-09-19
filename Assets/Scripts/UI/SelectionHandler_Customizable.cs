@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+/// <summary>
+/// SelectionHandler for 'Customizables' buttons
+/// </summary>
 public class SelectionHandler_Customizable : SelectionHandler
 {
     protected RuntimeDatabase.CustomizableType Type;

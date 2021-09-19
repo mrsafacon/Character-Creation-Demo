@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+
+/// <summary>
+/// Base class for UI buttons that are generated at runtime
+/// </summary>
 public abstract class SelectionHandler : MonoBehaviour, IPointerClickHandler
 {
     public UnityEngine.UI.Image PreviewImage;
     public GameObject Highlight;
-    protected int TypeInt;
-    protected int ID;
+    protected int TypeInt, ID;
     
     //New button setup
     public void Init(int t, int id, Sprite previewImage)
@@ -32,7 +35,6 @@ public abstract class SelectionHandler : MonoBehaviour, IPointerClickHandler
         if(changedType == TypeInt)
         {
             //toggle selected highlight based on the changes that were made
-
             if(changedID == ID)
                 Highlight.SetActive(true);
             else

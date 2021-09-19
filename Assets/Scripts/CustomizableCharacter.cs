@@ -6,14 +6,9 @@ using UnityEngine.UI;
 public class CustomizableCharacter : MonoBehaviour
 {
     public enum CustomizableTextureType { LeftEye, RightEye, Nose, Mouth }
-    //^^ same for color
 
     public Transform FaceTransform;
-    public Renderer FaceRenderer;
-    public Renderer LeftEyeRenderer;
-    public Renderer RightEyeRenderer;
-    public Renderer NoseRenderer;
-    public Renderer MouthRenderer;
+    public Renderer FaceRenderer, LeftEyeRenderer, RightEyeRenderer, NoseRenderer, MouthRenderer;
 
     protected static CustomizableCharacter _instance;
 

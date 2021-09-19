@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Generates buttons based on the selected tab
+/// </summary>
 public class SelectionPanel : MonoBehaviour
 {
 
