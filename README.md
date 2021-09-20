@@ -6,10 +6,10 @@ Customizable character creation screen in Unity.
 ![Preview Gif](/ReadmeImages/FullPreview.gif)
 
 ## Adding Customizable Options
-All options are loaded at runtime from the "Resources/Database" folder. The system handles generating the In-game content and preview/selection buttons based on that is loaded. This allows importing assets to be simple and straight-forward.
+All options are loaded at runtime from the "*Resources/Database*" folder. The system handles generating the In-game content and preview/selection buttons based on that is loaded. This allows importing assets to be simple and straight-forward.
 
-Create the DatabaseObject using the context menu ( Create > CustomizableCharacterObject > ... )
-Make sure is in the appropriate subfolder (eg. "Resources/Database/Colors" for color options)
+Create the *DatabaseObject* using the context menu ( *Create > CustomizableCharacterObject > ...* ).
+Make sure it is in the appropriate subfolder (eg. "*Resources/Database/Colors*" for color options)
 
 ![Object Creation Image](/ReadmeImages/DatabaseObjectCreation.png)
 
@@ -35,6 +35,7 @@ Now the assets are ready to be processed at runtime and will be available as opt
 
 #### SelectionPanel.cs & ColorPanel.cs
 - Generate buttons for each avalable appearance change.
+
 #### SelectionHandlers
 - Processes button presses.
 - Manages highlighting active selection utilizing CustomizableCharacter's listener callbacks.
