@@ -21,8 +21,7 @@ public class CustomizableCharacter : MonoBehaviour
 
     //Delegate for outside elements(eg. UI elements) to subscribe to changes in character
     public delegate void ChangeListener(int t, int id);
-    protected static ChangeListener CustomizableChangeListeners;
-    protected static ChangeListener ColorChangeListeners;
+    protected static ChangeListener CustomizableChangeListeners, ColorChangeListeners;
 
     void Awake()
     {
@@ -57,8 +56,6 @@ public class CustomizableCharacter : MonoBehaviour
         List<DatabaseObjectColor> colorOptions = RuntimeDatabase.GetColors(type);
         LoadColor(type,  colorOptions[Random.Range(0, colorOptions.Count)].ID);
     }
-
-
 
     #endregion
 
