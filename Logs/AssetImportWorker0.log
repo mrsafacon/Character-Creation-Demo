@@ -1172,3 +1172,74 @@ System memory in use after: 111.6 MB.
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1879.
 Total: 2.215900 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.938700 ms  DeleteObjects: 0.062400 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 17446.995912 seconds.
+  path: Assets/Resources/Database/Colors/ColorObject 2.asset
+  artifactKey: Guid(83fb8b173da8f99499d4ae32f8921765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Colors/ColorObject 2.asset using Guid(83fb8b173da8f99499d4ae32f8921765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2bca69f8f97e3939e42ae84d44541d') in 0.600607 seconds
+  Import took 0.655727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.444978 seconds.
+  path: Assets/Resources/Database/Colors/Face8.asset
+  artifactKey: Guid(afcbaf2685f35c74fbb60e75f4821e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Colors/Face8.asset using Guid(afcbaf2685f35c74fbb60e75f4821e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbab3926a4227f28805b31959cd3c3b') in 0.008241 seconds
+  Import took 0.012893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.452806 seconds.
+  path: Assets/Resources/Database/Colors/Hair3.asset
+  artifactKey: Guid(a87d5501c6e8f804e94a4e443535b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Colors/Hair3.asset using Guid(a87d5501c6e8f804e94a4e443535b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335523cd6f352e9bb8b3e37994dc16e7') in 0.008095 seconds
+  Import took 0.011831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.747731 seconds.
+  path: Assets/Resources/Database/Colors/ColorObject 3.asset
+  artifactKey: Guid(81ddd31f713f50e45883a6501dde032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Colors/ColorObject 3.asset using Guid(81ddd31f713f50e45883a6501dde032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268f2e3048afaff25e8aec56fa7e0434') in 0.009557 seconds
+  Import took 0.013043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.707415 seconds.
+  path: Assets/Resources/Database/Colors/ColorObject 1.asset
+  artifactKey: Guid(e41b0d82f53f4d0409bc3bed29b3b467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Colors/ColorObject 1.asset using Guid(e41b0d82f53f4d0409bc3bed29b3b467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4231d5bb9cf36fbf250f7dcc0f06a7ce') in 0.007828 seconds
+  Import took 0.011237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.164114 seconds.
+  path: Assets/Resources/Database/Colors/ColorObject.asset
+  artifactKey: Guid(df7c533a3f1da7443b57c14b607ac9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Database/Colors/ColorObject.asset using Guid(df7c533a3f1da7443b57c14b607ac9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559efa20f15dbca901dd104790e79dbb') in 0.007857 seconds
+  Import took 0.011389 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007256 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.2 MB.
+System memory in use after: 138.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1881.
+Total: 2.514200 ms (FindLiveObjects: 0.235000 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.136700 ms  DeleteObjects: 0.099900 ms)
+
