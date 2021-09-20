@@ -39,3 +39,6 @@ Now the assets are ready to be processed at runtime and will be available as opt
 #### SelectionHandlers
 - Processes button presses.
 - Manages highlighting active selection utilizing CustomizableCharacter's listener callbacks.
+
+## Dependencies
+Import TextMeshPro Essential Resources ( *Window > TextMeshPro > Import TMP Essential Resources* )
